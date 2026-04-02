@@ -1,0 +1,30 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+        "QUEUE_ION_queue_1": "",
+        "QUEUE_ION_queue_2": "",
+        "QUEUE_ION_queue_3": "",
+
+        "SERVICE_BUS_CONNECTION_STRING": "Endpoint=sb://your-servicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=YOUR_SHARED_ACCESS_KEY=",
+        "SERVICE_BUS_CONNECTION_STRING__fullyQualifiedNamespace": "your-servicebus.servicebus.windows.net",
+        "AZURE_TENANT_ID": "your-azure-tenant-id",
+
+        "OPTIONS_1__BaseUrl": "https://your-ion-api-base-url",
+        "OPTIONS_1__OAuthTokenUrl": "https://your-ion-sso-url/as/token.oauth2",
+        "OPTIONS_1__OAuthClientId": "YOUR_OAUTH_CLIENT_ID",
+        "OPTIONS_1__OAuthClientSecret": "YOUR_OAUTH_CLIENT_SECRET",
+        "OPTIONS_1__OAuthUsername": "YOUR_OAUTH_USERNAME",
+        "OPTIONS_1__OAuthPassword": "YOUR_OAUTH_PASSWORD",
+        "OPTIONS_1__Cono": "100",
+
+        "OPTIONS_2__ClientId": "your-client-id",
+        "OPTIONS_2__TenantId": "your-tenant-id",
+        "OPTIONS_2__Base64Pfx": "YOUR_BASE64_ENCODED_PFX_CERTIFICATE",
+        "OPTIONS_2__CertificatePassword": "placeholder",
+        "OPTIONS_2__Scope": "https://yourB2C.onmicrosoft.com/your-client-id/.default"
+    },
+    "ConnectionStrings": {}
+}
